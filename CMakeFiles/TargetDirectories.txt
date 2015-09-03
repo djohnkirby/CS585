@@ -1,0 +1,2 @@
+/home/dkirby/CS585/CMakeFiles/CS585_test.dir
+/home/dkirby/CS585/external/gtest/CMakeFiles/googletest.dir

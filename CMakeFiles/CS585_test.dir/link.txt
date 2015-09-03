@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/CS585_test.dir/tests/test_class.cpp.o CMakeFiles/CS585_test.dir/tests/trivial.t.cpp.o CMakeFiles/CS585_test.dir/tests/main.cpp.o  -o CS585_test -rdynamic external/gtest/src/googletest-build/libgtest.a external/gtest/src/googletest-build/libgtest_main.a 

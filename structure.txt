@@ -1,0 +1,7 @@
+CS585
++-- CMakeLists.txt
++-- src
+|   +-- game.m.cpp
++-- test
+|   +-- CMakeLists.txt
+|   +-- main.cpp

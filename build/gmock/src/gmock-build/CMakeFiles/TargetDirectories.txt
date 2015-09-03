@@ -1,0 +1,4 @@
+/home/dkirby/CS585/build/gmock/src/gmock-build/CMakeFiles/gmock.dir
+/home/dkirby/CS585/build/gmock/src/gmock-build/CMakeFiles/gmock_main.dir
+/home/dkirby/CS585/build/gmock/src/gmock-build/gtest/CMakeFiles/gtest.dir
+/home/dkirby/CS585/build/gmock/src/gmock-build/gtest/CMakeFiles/gtest_main.dir

@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include tests/subdir.mk
+-include src/subdir.mk
 -include external/gtest/subdir.mk
 -include .metadata/.plugins/org.eclipse.cdt.managedbuilder.core/subdir.mk
 -include .metadata/.plugins/org.eclipse.cdt.make.core/subdir.mk

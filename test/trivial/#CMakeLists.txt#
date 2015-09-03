@@ -1,0 +1,11 @@
+file(GLOB SRCS *.cpp)
+
+add_executable(testtrivial ${SRCS})
+
+target_link_libraries(testtrivial
+    libfoo
+    ${GTEST_LIBRARIES}
+    ${GMOCK_LIBRARIES}
+)
+
+install(TARGETS testfoo DESTINATION bin)

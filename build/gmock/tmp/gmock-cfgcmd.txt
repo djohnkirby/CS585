@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-GUnix Makefiles;/home/dkirby/CS585/build/gmock/src/gmock'
