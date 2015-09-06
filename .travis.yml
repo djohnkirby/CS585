@@ -2,6 +2,7 @@ language: cpp
 compiler: g++
 
 before_script:
+- rm -rf build
 - mkdir build
 - cd build
 - cmake ..
