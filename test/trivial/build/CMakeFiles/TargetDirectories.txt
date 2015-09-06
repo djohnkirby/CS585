@@ -1,0 +1,1 @@
+/home/dkirby/CS585/test/trivial/build/CMakeFiles/testtrivial.dir

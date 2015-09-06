@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/testtrivial.dir/trivial.t.cpp.o  -o testtrivial -rdynamic 

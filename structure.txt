@@ -1,7 +1,11 @@
 CS585
 +-- CMakeLists.txt
++-- game.m.cpp 
 +-- src
-|   +-- game.m.cpp
+|   - src files will go here
 +-- test
 |   +-- CMakeLists.txt
-|   +-- main.cpp
+|   +-- trivial
+    |   +-- main.cpp # Runs the trivial tests
+    |   +-- trivial.t.cpp #defines the trivial tests
+

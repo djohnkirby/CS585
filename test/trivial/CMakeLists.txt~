@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 2.8)
+project(CS585)
+file(GLOB SRCS *.cpp)
+
+include_directories(GTEST_INCLUDE_DIRS)
+add_executable(testtrivial ${SRCS})
+
+
+target_link_libraries(${GTEST_LIBS_DIR)
+
+#install(TARGETS DESTINATION bin)
+
+# Specify include dir                                                                
+#ExternalProject_Get_Property(googletest source_dir)
+#set(GTEST_INCLUDE_DIRS ${source_dir}/include PARENT_SCOPE)
+
+# Specify MainTest's link libraries                                                  
+#ExternalProject_Get_Property(googletest binary_dir)
+#set(GTEST_LIBS_DIR ${binary_dir} PARENT_SCOPE)
