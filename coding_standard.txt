@@ -1,0 +1,7 @@
+All of my code will comply with the style rules listed in the style rules.
+
+The "testing" branch of this repository will be for my personal use (syncing
+work between machines, tracking my changes) while the "master" branch will
+contain only completed work. 
+
+My indendation will follow the Allman Style.
