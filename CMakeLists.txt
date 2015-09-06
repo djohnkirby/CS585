@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.8.2)
+cmake_minimum_required(VERSION 2.8.2)
 project(CS585)
 add_executable(game game.m.cpp)
 
@@ -18,15 +18,19 @@ ExternalProject_Add(
 # Create a libgtest target to be used as a dependency by test programs
 add_library(libgtest IMPORTED STATIC GLOBAL)
 add_dependencies(libgtest gtest)
+
 # Set gtest properties
 ExternalProject_Get_Property(gtest source_dir binary_dir)
 set_target_properties(libgtest PROPERTIES
     "IMPORTED_LOCATION" "${binary_dir}/libgtest.a"
     "IMPORTED_LINK_INTERFACE_LIBRARIES" "${CMAKE_THREAD_LIBS_INIT}"
-#    "INTERFACE_INCLUDE_DIRECTORIES" "${source_dir}/include"
 )
-# I couldn't make it work with INTERFACE_INCLUDE_DIRECTORIES
-include_directories("${source_dir}/include")
+
+
+#include_directories("${source_dir}/include")
+
+set(EXT_PROJECTS_DIR ${PROJECT_SOURCE_DIR}/external)
+
 
 # Download and install GoogleMock
 ExternalProject_Add(
@@ -50,3 +54,4 @@ set_target_properties(libgmock PROPERTIES
 )
 # I couldn't make it work with INTERFACE_INCLUDE_DIRECTORIES
 include_directories("${source_dir}/include")
+include_directories("${source_dir}/external")
