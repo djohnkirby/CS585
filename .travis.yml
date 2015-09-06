@@ -9,4 +9,4 @@ before_script:
 
 script:
 - cmake --build .
-- build/test/trivial/testtrivial
+- test/trivial/testtrivial
