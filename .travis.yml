@@ -1,4 +1,9 @@
-install: make get-deps
-
 language: cpp
-compiler: gcc
+compiler: g++
+
+before_script:
+- mkdir build
+- cd build
+- cmake ..
+
+script: cmake --build .
