@@ -1,0 +1,6 @@
+build/CMakeFiles/*
+build/CMakeCache.txt
+build/CmakeTestfile.cmake
+build/src/
+build/test/
+*\~*~
