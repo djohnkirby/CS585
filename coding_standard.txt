@@ -1,3 +1,9 @@
+Daniel John Kirby
+Code Style Standard
+CS 585 Intro to Game Development
+Fall 2015
+dkirby@stevens.edu
+
 All of my code will comply with the style rules listed in the style rules.
 
 The "testing" branch of this repository will be for my personal use (syncing
@@ -5,3 +11,10 @@ work between machines, tracking my changes) while the "master" branch will
 contain only completed work. 
 
 My indendation will follow the Allman Style.
+
+In general, my comments will be formatted thusly: Above all functions there
+will be a multiline comment detailing the spec of the function. This comment
+will contain, at minimum, the list of input arguments and the significance
+(if any) of the return value. For sufficiently complex functions this comment
+will also contain information about the algorithm implemented.
+

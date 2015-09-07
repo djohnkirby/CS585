@@ -1,6 +1,7 @@
 //main.cpp
 #include "gtest/gtest.h"
 
+/* This function runs all trivial tests*/
 int main(int argc, char **argv)
 {
   ::testing::InitGoogleTest(&argc, argv);
