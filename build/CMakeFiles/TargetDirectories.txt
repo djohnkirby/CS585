@@ -1,3 +1,0 @@
-/home/dkirby/CS585/build/CMakeFiles/game.dir
-/home/dkirby/CS585/build/CMakeFiles/gmock.dir
-/home/dkirby/CS585/build/CMakeFiles/gtest.dir

@@ -1,2 +1,0 @@
-/home/dkirby/CS585/build/gtest/src/gtest-build/CMakeFiles/gtest.dir
-/home/dkirby/CS585/build/gtest/src/gtest-build/CMakeFiles/gtest_main.dir
