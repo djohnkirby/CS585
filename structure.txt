@@ -8,4 +8,5 @@ CS585
 |   +-- trivial
     |   +-- main.cpp # Runs the trivial tests
     |   +-- trivial.t.cpp #defines the trivial tests
-
++-- include
++-- build -> generated at runtime
