@@ -1,0 +1,11 @@
+//iallocator.h
+
+namespace sdgm
+{
+
+};
+
+template <class T>
+class IAllocator<T>
+
+

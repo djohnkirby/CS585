@@ -1,0 +1,7 @@
+#include "counting_allocator.h"
+
+template <typename T>
+class CountingAllocator : public DefaultAllocator
+{
+
+}
