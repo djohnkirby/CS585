@@ -6,7 +6,7 @@ class DefaultAllocator: public IAllocator
  public: 
   T* get(int count)
   {
-    return 
+    return new T(); 
   }
 
   void release(T* toRelease, int count)
