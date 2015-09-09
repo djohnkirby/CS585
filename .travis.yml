@@ -9,4 +9,7 @@ before_script:
 
 script:
 - cmake --build .
-- test/trivial/testtrivial
+
+after_script:
+- cd ../test
+- ./run_tests.sh
