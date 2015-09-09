@@ -1,0 +1,7 @@
+1. Clean up namespace situation in main
+2. alter testing framework so that it creates
+   only one executable for ALL tests
+3. Write allocator unit tests.
+4. Write allocators
+5. Write DynamicArray unit tests.
+6. Write DynamicArray
