@@ -2,15 +2,17 @@
 
 namespace sdgm
 {
+template <class T>
+class IAllocator<T>
 
 };
 
 
 template <class T>
-class IAllocator<T>
+class sdgm::IAllocator<T>
 {
  public:
-  abstract T* get(int count);
-  abstract void release(T*, int count);
+  virtual T* get(int count);
+  virtual void release(T*, int count);
 }
 
