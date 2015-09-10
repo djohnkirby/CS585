@@ -1,4 +1,8 @@
-set(libAlloc_SRCS *.h *.cpp)
+set(libAlloc_SRCS 
+  iallocator.cpp 
+  counting_allocator.cpp 
+  default_allocator.cpp
+  )
 
 add_library(libAlloc STATIC ${libAlloc_SRCS})
 
