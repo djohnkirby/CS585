@@ -1,6 +1,6 @@
 #include "iallocator.h"
 
-template <classname T>
-Class IAllocator<T>
+template <class T>
+class IAllocator
 {
-}
+};
